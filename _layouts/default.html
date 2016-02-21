@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Jekyll Test </title>
+    {% include scripts.html %}
+    {% include styles.html %}
+</head>
+<body >
+<div>
+    <span id="introductionSetences" ></span>
+</div>
+</body>
+<script>
+    $(function(){
+        typeSentence();
+        setInterval(function(){
+            typeSentence();
+        }, 8*1000)
+
+    });
+
+    function typeSentence(){
+        /*$("#introductionSetences").typed({
+            strings: ["I'm a human", "I'm curious", "I'm a developer"],
+            typeSpeed: 2
+        });*/
+
+        $(function(){
+            $("#introductionSetences").typed({
+                strings: ["", " ^1000 I'm a human, ^1000 <br/>I'm curious, ^1000<br/> <b style='font-size: 20px'>I'm a developer! </b>  "],
+                typeSpeed: 10,
+                backDelay: 500,
+                contentType: 'html'
+            });
+        });
+
+    }
+</script>
+
+</html>

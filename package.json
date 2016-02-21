@@ -1,0 +1,22 @@
+{
+  "name": "dennis-carreira-digital-resume",
+  "version": "1.0.0",
+  "description": "Digital resume for Dennis D. Carreira, power by jekyll",
+  "main": "index.js",
+  "dependencies": {
+    "bower": "^1.7.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denniscarreira/presentation.git"
+  },
+  "author": "denniscarreira",
+  "bugs": {
+    "url": "https://github.com/denniscarreira/presentation/issues"
+  },
+  "homepage": "https://github.com/denniscarreira/presentation#readme"
+}

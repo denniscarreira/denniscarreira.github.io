@@ -1,0 +1,19 @@
+{
+  "name": "dennis-carreira-digital-resume",
+  "description": "Digital resume for Dennis D. Carreira, power by jekyll",
+  "main": "index.js",
+  "authors": [
+    "denniscarreira"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
